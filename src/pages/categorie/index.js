@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import api from '../../services/api'
 
-import LoadingYoda from '../../atoms/LoadingYoda'
-import Game from '../../organisms/Game'
+import LoadingYoda from '../../Atoms/LoadingYoda'
+import Game from '../../Organisms/Game'
 
 export default class Categorie extends Component{
 

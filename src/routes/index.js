@@ -2,9 +2,9 @@ import React from 'react';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Main from '../pages/main'
-import Categories from '../pages/categories'
-import Categorie from '../pages/categorie'
+import Main from '../Pages/Main'
+import Categories from '../Pages/Categories'
+import Categorie from '../Pages/Categorie'
 
 const Routes = () => (
   <BrowserRouter>

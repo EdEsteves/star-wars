@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Button from '../../atoms/Button';
-import LinkButton from '../../atoms/LinkButton';
+import Button from '../../Atoms/Button';
+import LinkButton from '../../Atoms/LinkButton';
 
 const linkData = {
   value: `Back to categorie's screen`,
