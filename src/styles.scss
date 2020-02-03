@@ -1,3 +1,4 @@
+
 // //font with background
 // @font-face {
 //   font-family: 'Starjedi';
@@ -18,7 +19,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   overflow-x: hidden;
-  background: url('./assets/background.jpg') no-repeat center center fixed;
+  background: url('/background.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
