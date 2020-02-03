@@ -1,4 +1,4 @@
-## Desafio
+# Desafio técnico: Dev. Front End - B2W
 
 Teste proposto pela b2w digital como avaliação técnica para o processo seletivo da vaga de front-end.
 Url do projeto: https://star-wars-b2w.herokuapp.com/
@@ -20,7 +20,7 @@ Url do projeto: https://star-wars-b2w.herokuapp.com/
 
 O uso do storybook e do atomic design foi totalmente voltado para o aprendizado dos mesmos.
 
-## Desafio técnico: Dev. Front End - B2W
+## Comandos
 
 Comandos para rodar na raiz do projeto:
 
