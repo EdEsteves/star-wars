@@ -2,12 +2,12 @@ import React from 'react';
 
 import LinkButton from '../../atoms/LinkButton'
 
-import './styles.scss'
 
 const btnData = {
   value: 'Planets',
   url: '/categories/planets',
-  icon: 'faGlobeEurope'
+  icon: 'faGlobeEurope',
+  class: 'starwars__menu-item'
 }
 
 const Menu = () => {

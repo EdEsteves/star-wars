@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import api from '../../services/api'
 
-import Card from '../../molecules/card'
 import LoadingYoda from '../../atoms/LoadingYoda'
+import Game from '../../organisms/Game'
 
 export default class Categorie extends Component{
 
@@ -22,13 +22,14 @@ export default class Categorie extends Component{
     this.getCategorieRandomInfo(data.count)
   }
 
-  getCategorieRandomInfo = async (count) => {
+  getCategorieRandomInfo = async (count, fromComp = false) => {
+    if(fromComp){
+      this.setState({loading: false})
+    }
     const random = Math.floor(Math.random() * (count - 1) + 1);
     const response = await api.get(`planets/${random}`);
     const infos = response.data
     this.setState({infos: infos, count: count, loading: true })
-
-    console.log( Math.floor(Math.random() * (count - 1) + 1))
   }
 
   render(){
@@ -38,10 +39,10 @@ export default class Categorie extends Component{
       timing: 'linear',
       count: 'infinite'
     }
-    const { infos, loading } = this.state
+    const { infos, loading, count } = this.state
     return(
-      <div className='starwars__card'>
-        {loading ? <Card infos={infos} /> : <LoadingYoda animation={animationStyle} />}
+      <div className='starwars'>
+        {loading ? <Game infos={infos} count={count} action={this.getCategorieRandomInfo} /> : <LoadingYoda animation={animationStyle} />}
       </div>
     )
   }

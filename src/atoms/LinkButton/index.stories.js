@@ -16,7 +16,8 @@ import LinkButton from '../LinkButton';
 const btnDefault = {
   value: 'Planets',
   url: '/categories',
-  icon: 'faPlanetEurope'
+  icon: 'faPlanetEurope',
+  class: 'storybook'
 }
 
 

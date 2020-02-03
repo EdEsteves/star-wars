@@ -1,9 +1,15 @@
 import React from 'react'
+import styled from 'styled-components';
 
 import Logo from '../../atoms/Logo'
 import LinkButton from '../../atoms/LinkButton'
 
-import './styles.scss'
+const StartDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`
 
 const Start = () => {
   const btnData = {
@@ -12,10 +18,10 @@ const Start = () => {
     icon: ''
   }
   return(
-    <div className='starwars-start__container'>
+    <StartDiv className='starwars__start'>
       <Logo />
       <LinkButton btnInfo={btnData} />
-    </div>
+    </StartDiv>
   )
 }
 

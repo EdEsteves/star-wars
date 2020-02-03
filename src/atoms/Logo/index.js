@@ -1,9 +1,16 @@
 import React from 'react'
+import styled from 'styled-components';
 
-import './styles.scss'
+const LogoStarWars = styled.img`
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 50px;
+`
+
 
 const Logo = () => (
-  <img src='star-wars-logo.png'></img>
+  <LogoStarWars src='star-wars-logo.png'></LogoStarWars>
 )
 
 export default Logo;

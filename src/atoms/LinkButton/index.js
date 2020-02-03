@@ -1,16 +1,41 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJedi, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
+import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 
-import './styles.scss'
+// import './styles.scss'
+
+const LinkBtn = styled.div`
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    color: #fff;
+    border: 2px solid #BC1E22;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    transition: all .7s ease;
+    text-decoration: none;
+    @media screen and (min-width: 1024px){
+      font-size: 14px;
+    }
+    &:hover{
+      background: #BC1E22 !important;
+    }
+    svg{
+      width: 30px !important;
+      height: 30px !important;
+      margin-right: 10px;
+    } 
+  }  
+`;
 
 const LinkButton = ({ btnInfo } = this.props) => {
-  console.log(btnInfo)
-
-return <Link to={btnInfo.url} >{btnInfo.icon ? <FontAwesomeIcon icon={faGlobeEurope} /> : ''}{btnInfo.value}</Link>
-  
+  return <LinkBtn className={btnInfo.class} ><Link to={btnInfo.url} >{btnInfo.icon ? <FontAwesomeIcon icon={faGlobeEurope} /> : ''}{btnInfo.value}</Link></LinkBtn>
 }
 
 export default LinkButton;

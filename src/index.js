@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import MainTemplate from './templates/main'
 import * as serviceWorker from './serviceWorker';
 import './styles.scss'
 
-// ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(<MainTemplate />, document.getElementById('root'));
 

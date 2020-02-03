@@ -20,6 +20,18 @@ body {
   overflow-x: hidden;
   background: url('./assets/background.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #root{
+    padding: 0 15px;
+    margin-bottom: 50px;
+    width: 100%;
+    @media screen and (min-width: 1024px){
+      width: 500px;
+      margin-bottom: 0px;
+    }
+  }
 }
 

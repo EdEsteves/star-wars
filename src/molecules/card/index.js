@@ -1,17 +1,26 @@
 import React from 'react'
+import styled from 'styled-components';
 
 import CardTitle from '../../atoms/CardTitle'
 import CardInfos from '../../atoms/CardInfos'
 
-import './styles.scss'
+
+const CardDiv = styled.div`
+  border: 1px solid #BC1E22;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  @media screen and (min-width: 1024px){
+    margin-top: 0px;
+  }
+`
 
 const Card = ( { infos } = this.props) => {
-    return (
-      <div className="card">
-        <CardTitle infos={infos}/>
-        <CardInfos infos={infos}/>
-      </div>
-    )
+  return (
+    <CardDiv className="card">
+      <CardTitle infos={infos}/>
+      <CardInfos infos={infos}/>
+    </CardDiv>
+  )
 }
 
 export default Card;
