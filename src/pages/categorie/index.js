@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from './node_modules/react'
 import api from '../../services/api'
 
-import LoadingYoda from '../../atoms/loadingYoda'
-import Game from '../../organisms/game'
+import LoadingYoda from '../../atoms/loadingyoda'
+import Game from '../../organisms/Game'
 
 export default class Categorie extends Component{
 
