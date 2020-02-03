@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Start from '../../molecules/Start'
+import Start from '../../molecules/start'
 
 export default class Main extends Component{
 
