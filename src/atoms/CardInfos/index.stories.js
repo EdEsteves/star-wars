@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import StoryRouter from 'storybook-react-router';
 
-import CardInfos from '../CardInfos';
+import CardInfos from '../cardInfos';
 
 const data = {
   population: 30000,

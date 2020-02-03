@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { storiesOf } from '@storybook/react';
 import StoryRouter from 'storybook-react-router';
  
-import LinkButton from '../LinkButton';
+import LinkButton from '../linkButton';
 // import { action } from '@storybook/addon-actions'
 
 // import LinkButton from './index'

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { actions } from '@storybook/addon-actions';
 import StoryRouter from 'storybook-react-router';
 
-import Button from '../Button'
+import Button from '../button'
 
 const btnDefault = {
   value: 'Next',

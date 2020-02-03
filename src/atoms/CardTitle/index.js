@@ -1,5 +1,5 @@
-import React from './node_modules/react';
-import styled from './node_modules/styled-components';
+import React from 'react';
+import styled from 'styled-components';
 
 const CardTitleH3 = styled.h3`
   font-family: 'Press Start 2P', cursive;

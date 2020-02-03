@@ -1,7 +1,7 @@
-import React, { Component } from './node_modules/react'
-import styled from './node_modules/styled-components';
+import React, { Component } from 'react'
+import styled from 'styled-components';
 
-import Menu from '../../Molecules/Menu'
+import Menu from '../../molecules/menu'
 
 const MenuDiv = styled.div`
   width: 100%;

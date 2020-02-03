@@ -1,4 +1,4 @@
-import React from './node_modules/react'
+import React from 'react'
 import Card from '../../molecules/card'
 import ActionButtons from '../../molecules/actionButtons'
 

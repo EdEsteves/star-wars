@@ -1,6 +1,6 @@
-import React from './node_modules/react';
+import React from 'react';
 
-import { BrowserRouter, Switch, Route } from './node_modules/react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from '../pages/main'
 import Categories from '../pages/categories'

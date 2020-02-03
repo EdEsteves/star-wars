@@ -1,4 +1,4 @@
-import React, { Component } from './node_modules/react'
+import React, { Component } from 'react'
 import api from '../../services/api'
 
 import LoadingYoda from '../../atoms/loadingYoda'
