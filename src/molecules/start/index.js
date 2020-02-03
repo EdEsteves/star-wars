@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 import Logo from '../../atoms/logo'
-import LinkButton from '../../atoms/linkButton'
+import LinkButton from '../../atoms/linkbutton'
 
 const StartDiv = styled.div`
   display: flex;
