@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from './node_modules/react';
 
-import Routes from '../../Routes'
+import Routes from '../../routes'
 
 export default class MainTemplate extends Component {
   render(){

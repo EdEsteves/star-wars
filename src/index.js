@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainTemplate from './Templates/Main'
+import MainTemplate from './templates/main'
 import * as serviceWorker from './serviceWorker';
 import './styles.scss'
 

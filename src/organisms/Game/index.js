@@ -1,6 +1,6 @@
-import React from 'react'
-import Card from '../../Molecules/Card'
-import ActionButtons from '../../Molecules/ActionButtons'
+import React from './node_modules/react'
+import Card from '../../molecules/card'
+import ActionButtons from '../../molecules/actionButtons'
 
 const Game = ({ infos, count, action } = this.props) =>{
   return (

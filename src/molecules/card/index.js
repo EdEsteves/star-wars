@@ -1,8 +1,8 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from './node_modules/react'
+import styled from './node_modules/styled-components';
 
-import CardTitle from '../../Atoms/CardTitle'
-import CardInfos from '../../Atoms/CardInfos'
+import CardTitle from '../../atoms/cardTitle'
+import CardInfos from '../../atoms/cardInfos'
 
 
 const CardDiv = styled.div`

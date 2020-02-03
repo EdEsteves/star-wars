@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import styled from 'styled-components';
+import React, { Component } from './node_modules/react'
+import styled from './node_modules/styled-components';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJedi } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from './node_modules/@fortawesome/react-fontawesome'
+import { faJedi } from './node_modules/@fortawesome/free-solid-svg-icons';
 
 // import './styles.scss'
 

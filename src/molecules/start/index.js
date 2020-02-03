@@ -1,8 +1,8 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from './node_modules/react'
+import styled from './node_modules/styled-components';
 
-import Logo from '../../Atoms/Logo'
-import LinkButton from '../../Atoms/LinkButton'
+import Logo from '../../atoms/logo'
+import LinkButton from '../../atoms/linkButton'
 
 const StartDiv = styled.div`
   display: flex;

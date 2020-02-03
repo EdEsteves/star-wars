@@ -1,10 +1,10 @@
-import React from 'react';
+import React from './node_modules/react';
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from './node_modules/react-router-dom';
 
-import Main from '../Pages/Main'
-import Categories from '../Pages/Categories'
-import Categorie from '../Pages/Categorie'
+import Main from '../pages/main'
+import Categories from '../pages/categories'
+import Categorie from '../pages/categorie'
 
 const Routes = () => (
   <BrowserRouter>
