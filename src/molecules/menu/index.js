@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LinkButton from '../../atoms/linkButton'
+import LinkButton from '../../atoms/LinkButton'
 
 
 const btnData = {
